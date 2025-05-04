@@ -13,7 +13,7 @@ const ClickCounter = () => {
         }
     };
 
-    const increment = () = {
+    const increment = () => {
         setCount(prev => prev + 1);
         setMessage("");
     };
