@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react";
 import React from "react"
-import ClickCounter from "./components/ClickCounter"
+import ViewList from "./components/viewList/ViewList";
+// import ClickCounter from "./components/ClickCounter"
 // import SecondaryNavbar from "./components/SecondaryNavbar";
 // import { data } from "./mockData";
 
@@ -29,7 +30,8 @@ function App() {
   return (
     <>
 
-      < ClickCounter />
+      <ViewList />
+      {/* < ClickCounter /> */}
       {/* <h1>Hello World</h1>; */}
       {/* <SecondaryNavbar
         searchQuery={searchQuery}
